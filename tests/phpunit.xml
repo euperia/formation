@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false" 
+		 bootstrap="./bootstrap.php">
+    <testsuites>
+      <testsuite name="Form Class Tests">
+        <directory suffix="Test.php">./</directory>
+      </testsuite>
+    </testsuites>
+</phpunit>
